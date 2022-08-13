@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+.booklist {
+    width: 80vw;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 5fr);
+    column-gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.frame {
+    display: inline-block;
+    width: 160px;
+    height: 180px;
+    background: transparent;
+    border: 10px solid red;
+    text-align: center;
+    padding: 10px;
+}

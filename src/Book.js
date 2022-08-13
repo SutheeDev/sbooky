@@ -5,6 +5,8 @@ const BookList = () => {
     return (
         <article className='booklist'>
             <Book/>
+            <Book/>
+            <Book/>
         </article>
     )
 }
@@ -12,10 +14,12 @@ const BookList = () => {
 const Book = () => {
     return (
         <div className="frame">
-            <h4>Atomic Habits</h4>
-            <p>James Clear</p>
-            <img src="" alt="" />
-            <p>$25.99</p>
+            <div>
+                <h4>Atomic Habits</h4>
+                <p>James Clear</p>
+                <img src="" alt="" />
+            </div>
+            <p className='price'>$25.99</p>
         </div>
     )
 }
