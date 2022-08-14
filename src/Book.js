@@ -19,8 +19,8 @@ const Book = (props) => {
     return (
         <div className="frame">
             <div>
-                <h4>{name}</h4>
-                <p>{author}</p>
+                <h4 className='book-name'>{name}</h4>
+                <p className='author-name'>{author}</p>
                 <img src={img} className='displayCover' alt="" />
             </div>
             <p className='price'>{`$${price}`}</p>
