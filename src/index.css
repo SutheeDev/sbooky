@@ -35,7 +35,7 @@ body {
     height: 231px;
     width: 150px;
     object-fit: cover;
-    margin-bottom: 0.625rem;
+    margin-bottom: 0.8rem;
     box-shadow:
             0px 1.9px 2px rgba(0, 0, 0, 0.053),
             0px 4.7px 4.9px rgba(0, 0, 0, 0.077),
@@ -43,6 +43,10 @@ body {
             0px 15.6px 16.3px rgba(0, 0, 0, 0.113),
             0px 29.2px 30.5px rgba(0, 0, 0, 0.137),
             0px 70px 73px rgba(0, 0, 0, 0.19);
+    transition: all 0.3s ease;
+}
+.displayCover:hover {
+    transform: scale(105%);
 }
 .book-name {
     height: 3.5rem;
@@ -50,4 +54,8 @@ body {
 }
 .author-name {
     margin-bottom: 0.8rem;
+}
+.price {
+    position: relative;
+    z-index: 1;
 }

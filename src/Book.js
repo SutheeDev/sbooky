@@ -2,14 +2,12 @@ import React from 'react'
 import {books} from './books'
 
 const BookList = () => {
-    const newBooks = books.map((book) => {
-        return (
-            <Book name={book.name} author={book.author} img={book.img} price={book.price}/>
-        )
-    })
     return (
         <article className='booklist'>
-            {newBooks}
+            {books.map((book) => {
+                const {name, author, img, price} = book;
+                return <Book key={book.id} {...book}/>;
+            })}
         </article>
     )
 }
@@ -27,5 +25,4 @@ const Book = (props) => {
         </div>
     )
 }
-
 export default BookList
