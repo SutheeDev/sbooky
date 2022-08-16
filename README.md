@@ -2,7 +2,7 @@
 
 Sbooky is a horror bookstore website project designed and created with a passion for horror books.
 
-## Genearal Info
+## General Info
 
 Sbooky is my ongoing personal project where I hone my skills in creating React components for the bookstore application.
 
